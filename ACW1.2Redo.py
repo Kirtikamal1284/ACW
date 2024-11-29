@@ -19,7 +19,7 @@ def move_cell_8_directions(position, grid_size):
 grid_size = int(input("Enter grid size (e.g., 100): "))
 steps = int(input("Enter number of steps (e.g., 10000): "))
 
-# Initialize position and path
+# Initialize position and path for X and Y values
 initial_position = (grid_size // 2, grid_size // 2)  # Start at grid center
 position = initial_position
 path = [position]  # List to track the path of the cell
